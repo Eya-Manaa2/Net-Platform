@@ -1,0 +1,2 @@
+psutil==5.9.5
+kafka-python==2.0.2
