@@ -51,6 +51,9 @@ projet/
 ├── performance/              # Tests de performance
 │   ├── benchmarks.py        # Scripts de benchmark
 │   └── results/             # Résultats
+├── labs/                     # Agent Skills Training
+│   ├── lab1/                # First Contact - Log Analyzer
+│   └── lab2/                # Context Engineering - AGENTS.md & Skills
 └── scripts/                  # Scripts de déploiement
     ├── start.sh             # Démarrage infrastructure
     └── stop.sh              # Arrêt infrastructure
@@ -65,6 +68,31 @@ projet/
 - **Elasticsearch** - Stockage et recherche
 - **Kibana** - Visualisation
 - **Docker & Docker Compose** - Infrastructure
+
+## Labs - Agent Skills Training
+
+Ce projet inclut des laboratoires pratiques pour l'apprentissage des compétences d'agents et de l'ingénierie de contexte :
+
+### Lab 1 - First Contact
+Un prototype d'analyseur de logs construit avec un agent de codage :
+- **Outil** : Log Analyzer en Python
+- **Fonctionnalités** : Analyse de fichiers logs, extraction de métriques (erreurs, avertissements, durées), génération de rapports
+- **Réflexion** : Classification du workflow sur le spectre (vibe → structured → agentic)
+- **Livrables** : Prototype fonctionnel + REFLECTION.md
+
+### Lab 2 - Context Engineering
+Mise en place de contexte structuré pour améliorer les interactions avec les agents :
+- **AGENTS.md** : Documentation spécialisée pour les agents de codage
+- **Skill réutilisable** : Log Pattern Matcher - système flexible de matching de patterns
+- **Comparaison** : Mesure de l'impact du contexte (100% de succès au premier passage vs 0% sans)
+- **Livrables** : AGENTS.md + Skill + COMPARISON.md
+
+**Résultats mesurés** :
+- Succès au premier passage : +100%
+- Temps de développement : -67%
+- Qualité du code : +50%
+
+Voir `labs/README.md` pour plus de détails sur les laboratoires.
 
 ## Données Télécom
 

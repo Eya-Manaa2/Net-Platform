@@ -1,0 +1,10 @@
+Metric,Value
+Total Lines,21
+Errors,3
+Warnings,4
+Info,14
+Error Rate (%),14.29
+Warning Rate (%),19.05
+Avg Duration (ms),400.00
+Max Duration (ms),2500.00
+Min Duration (ms),120.00
